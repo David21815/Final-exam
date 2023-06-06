@@ -1,0 +1,13 @@
+:root{
+    --custom-purple: rgb(188, 168, 233);
+    --custom-yellow: #F6F7A9;
+}
+.custom-purple{
+    background-color: var(--custom-purple);
+}
+.custom-yellow{
+    background-color: var(--custom-yellow);
+}
+.costom-yellow-text{
+    color: var(--custom-yellow);
+}

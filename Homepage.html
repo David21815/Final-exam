@@ -1,12 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/global.css">
 </head>
-<body>
-    
+
+<body class="custom-yellow">
+  <!-- https://www.google.com/search?q=quiz+app+designs+with+html+css+and+javascript&bih=746&biw=1536&rlz=1C1GCEA_enMK967MK967&hl=hr&sxsrf=APwXEdfBYygmN9t3MSP9UC-WUOBbBhSDZw%3A1682352365357&ei=7ahGZOyfFYr_7_UPrpmVyAs&oq=quiz+app+designs+with+html&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMggIIRCgARCLAzIFCCEQoAEyCAghEKABEIsDMgsIIRAWEB4QHRCLAzILCCEQFhAeEB0QiwMyCwghEBYQHhAdEIsDMgsIIRAWEB4QHRCLAzILCCEQFhAeEB0QiwMyCwghEBYQHhAdEIsDMgsIIRAWEB4QHRCLAzoKCAAQRxDWBBCwAzoKCAAQgAQQChDLAToGCAAQFhAeOgoIABAWEB4QDxAKOggIABAWEB4QCjoICCEQFhAeEB06CgghEBYQHhAPEB06DQghEBYQHhAPEB0QiwNKBAhBGABQ0wZYhi5gvztoAXABeACAAZwBiAGHC5IBBDAuMTGYAQCgAQHIAQi4AQPAAQE&sclient=gws-wiz-serp#fpstate=ive&vld=cid:63d772ce,vid:WHHYz8rZmDU -->
+  <!-- https://dribbble.com/shots/15846004-Trivia-Quiz-Game-App -->
+  <!-- https://codingtorque.com/quiz-app-using-javascript/ -->
+  <!-- https://www.quizbreaker.com/trivia-questions -->
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-md custom-purple py-3 sticky-top mb-5">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-2" href="Homepage.html">Quiz<i class="bi bi-question-diamond custom-purple"
+          style="margin-left:8px;"></i>
+        <i class="bi bi-check-circle custom-purple"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <div class="dropdown me-1">
+            <button class="btn dropdown-toggle custom-nav-hover rounded-pill" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Experiences
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <li class="nav-item me-1">
+            <a class="nav-link active custom-nav-hover rounded-pill" aria-current="page" href="#">Start</a>
+          </li>
+          <li class="nav-item me-1">
+            <a class="nav-link active custom-nav-hover rounded-pill" aria-current="page" href="#">Membership</a>
+          </li>
+          <li class="nav-item me-1">
+            <a class="nav-link active custom-nav-hover rounded-pill" aria-current="page" href="#">Leaderboards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active custom-nav-hover rounded-pill" aria-current="page" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NavBar -->
+
+  <section class="container pt-5">
+    <div class="row">
+      <div class="col-md-6 margin">
+        <h1 class="display-2 fw-bold text-black">Welcome To</h1>
+        <h1 class="display-2 fw-bold text-black mb-4">Trivia Quiz.</h1>
+        <p class="mb-1 ms-2 fs-5 fw-lighter">Welcome to the best Trivia Quiz. Are you ready to answer</p>
+        <p class="mb-1 ms-2 fs-5 fw-lighter">some difficult questions? Complete all the challenges and be</p>
+        <p class=" ms-2 fs-5 fw-lighter">on the top of the leaderboards! Over 100000 active players!</p>
+        <a href="Homapage2.html" class="btn custom-btn ms-2 fw-bold">Take a quiz</a>
+      </div>
+      <div class="col-md-6 pb-5">
+        <img class="img-fluid" src="Images/img-1.avif" alt="Image 1">
+      </div>
+    </div>
+  </section>
+  <!-- Logo -->
+  <img width="75" class="rounded-circle shadow-lg position-fixed bottom-0 end-0 me-4 mb-4" src="Images/logo.avif"
+    alt="Logo">
+  <!-- Logo -->
+
+  <!-- Footer -->
+    <footer class="text-center text-lg-start border border-white mt-xl-5 pt-2 custom-purple">
+    <div class="container px-4 pt-4 pb-1">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">OUR WORLD</h5>
+
+          <ul class="list-unstyled mb-4">
+            <li>
+              <a href="#!" class="footer-links">About us</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Collections</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Environmental philosophy</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Artist collaborations</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Assistance</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="footer-links">Contact us</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Size Guide</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Shipping Information</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Returns & Exchanges</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Payment</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Careers</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="footer-links">Jobs</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-links">Team</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+
+          <div class="form-outline form-white mb-4">
+            <input type="email" id="form5Example2" class="form-control" placeholder="Email address" />
+          </div>
+
+          <button type="submit" class="btn btn-outline-white btn-block btn-danger">Subscribe</button>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+
+    <div class="text-center p-3 border-top border-white">
+      &copy; 2023 Copyright:
+      <a class="footer-links" href="#">David Stoimenov</a>
+    </div>
+
 </body>
+
 </html>
