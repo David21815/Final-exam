@@ -23,5 +23,5 @@ body{
     color: black;
 }
 .footer-links:hover{
-    color: var(--custom-yellow);
+    color: var(--custom-green);
 }
