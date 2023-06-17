@@ -1,0 +1,47 @@
+.custom-nav-hover:hover{
+    background-color: var(--custom-yellow);
+}
+body{
+    background-color: var(--custom-green);
+}
+.custom-title{
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: sans-serif "Lato";
+}
+.custom-border{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.border-top{
+    border-top: 1px solid whitesmoke;
+}
+:root{
+    --custom-bronze: #CD7F32;
+    --custom-gold: #FFD700;
+    --custom-diamond: #1db2d3;
+}
+.custom-text-bronze{
+    color: var(--custom-bronze);
+}
+.custom-text-gold{
+    color: var(--custom-gold);
+}
+.custom-text-diamond{
+    color: var(--custom-diamond);
+}
+.custom-bronze-bg{
+    background-color: var(--custom-bronze);
+}
+.custom-gold-bg{
+    background-color: var(--custom-gold);
+}
+.custom-diamond-bg{
+    background-color: var(--custom-diamond);
+}
+.custom-btn-width{
+    width: 50%;
+}
+.custom-fs{
+    font-size: 37px;
+}
